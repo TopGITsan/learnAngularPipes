@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Learn Angular
+### Lesson 21: Pipes
+- Inbuilt pipes {{ variable | pipe1:option1:option2:option3... | pipe2}}
+    - Date
+    - UpperCase
+    - LowerCase
+    - Currency {{ var | currency[:currencyCode[:display[:digitInfo[:locale]]]] }}
+    - Percent
+- Custom pipes
