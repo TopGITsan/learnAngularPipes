@@ -12,8 +12,11 @@
 <!-- can be piped to display as list -->
 <p>This is another {{"this.work.test" | reverse:true:"singlequote"}}</p>
 
-<div *ngIf="testNgIf">Do if true</div>
-<div *ngIf="!testNgIf">Do if false</div>
+<div *ngIf="testNgIf;else otherBlockContent">Do if true</div>
+
+<ng-template #otherBlockContent>
+  <h3>Do if false</h3>
+</ng-template>
 
 <h2>Here are some links to help you start: </h2>
 <ul>

@@ -14,7 +14,7 @@ export class AppComponent {
   currency = 'USD';
   rateUsdEur = 1.12;
 
-  testNgIf = true;
+  testNgIf = false;
 
   get amount(){
     return this.eur ? this.actualAmountInEUR : this.actualAmountInEUR*this.rateUsdEur
