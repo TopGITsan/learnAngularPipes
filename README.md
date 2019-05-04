@@ -40,4 +40,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - Returning the new value
     - Accepting arguments
 
-https://youtu.be/2OHbjep_WjQ?t=16391
+### Directives
+- What are directives ?
+    - Add custom behavior to your HTML
+    - Basically, these are attributes of your HTML tag
+- Inbuilt directives: 
+    - *ngFor 
+    - *ngIf
+    - ngSwitch
+    - ngNonBindable
+    - ngClass
+    - ...
+- Custom directives
