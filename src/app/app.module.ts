@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ReversePipe } from './reverse.pipe';
+import { RedblackDirective } from './redblack.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReversePipe
+    ReversePipe,
+    RedblackDirective
   ],
   imports: [
     BrowserModule
