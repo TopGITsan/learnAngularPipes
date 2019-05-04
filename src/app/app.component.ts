@@ -19,7 +19,7 @@ export class AppComponent {
   constructor(){
     setInterval(()=>{
       this.testNgIf = !this.testNgIf;
-    },2000)
+    },10000)
   }
 
   get amount(){
