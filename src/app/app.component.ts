@@ -16,6 +16,12 @@ export class AppComponent {
 
   testNgIf = false;
 
+  constructor(){
+    setInterval(()=>{
+      this.testNgIf = !this.testNgIf;
+    },2000)
+  }
+
   get amount(){
     return this.eur ? this.actualAmountInEUR : this.actualAmountInEUR*this.rateUsdEur
   }
