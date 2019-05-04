@@ -35,3 +35,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - Currency {{ var | currency[:currencyCode[:display[:digitInfo[:locale]]]] }}
     - Percent
 - Custom pipes
+    - Creating custom pipe: ng generate pipe
+    - Rransforming the value
+    - Returning the new value
+    - Accepting arguments
+
+https://youtu.be/2OHbjep_WjQ?t=16391
