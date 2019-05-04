@@ -52,3 +52,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - ngClass
     - ...
 - Custom directives
+    - Creating a custom directive
+    - Hacking the DOM element
