@@ -16,6 +16,17 @@ export class AppComponent {
 
   testNgIf = false;
 
+  data = [
+    {
+      lang: "JavaScript",
+      usedOn: 'web development'
+    },
+    {
+      lang: "Swift",
+      usedOn: "IOS"
+    }
+  ];
+
   constructor(){
     setInterval(()=>{
       this.testNgIf = !this.testNgIf;
